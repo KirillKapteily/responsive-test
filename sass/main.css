@@ -1,0 +1,117 @@
+.container {
+  width: 1400px;
+}
+
+@media (min-width: 766px) and (max-width: 1900px) {
+  .container {
+    width: 700px;
+    outline: rgb(0, 255, 81) 2px solid;
+    background-color: rgb(255, 251, 0);
+  }
+  .par {
+    font-size: 18px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .footer-ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0px;
+  }
+  .footer-link {
+    outline: 1px tan solid;
+    margin: 0 auto;
+  }
+  .header-link {
+    outline: 1px tan solid;
+    margin: 0 auto;
+  }
+  .ttt {
+    display: flex;
+    gap: 10px;
+    padding-left: 0px;
+  }
+  .footer {
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 351px) and (max-width: 765px) {
+  .container {
+    width: 400px;
+    outline: rgb(255, 140, 0) 2px solid;
+    background-color: rgb(25, 0, 255);
+  }
+  .par {
+    font-size: 12px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .footer-ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0px;
+  }
+  .footer-link {
+    outline: 1px tan solid;
+    margin: 0 auto;
+  }
+  .header-link {
+    outline: 1px tan solid;
+    margin: 0 auto;
+  }
+  .ttt {
+    display: flex;
+    gap: 10px;
+    padding-left: 0px;
+  }
+  .footer {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 350px) {
+  .container {
+    width: 200px;
+    outline: rebeccapurple 2px solid;
+    background-color: rgb(255, 140, 0);
+  }
+  .par {
+    font-size: 12px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .footer-ul {
+    margin: 0 auto;
+    padding-left: 0px;
+  }
+  .footer-link {
+    outline: 1px rgb(190, 210, 140) solid;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .header-link {
+    outline: 1px tan solid;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .ttt {
+    margin: 0 auto;
+    padding-left: 0px;
+  }
+  .footer {
+    margin-bottom: 100px;
+  }
+}
+.ttt {
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
